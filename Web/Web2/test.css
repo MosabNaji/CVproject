@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    display: inline-block;
+    width: 40%;
+    background-color: red;
+}
+@media screen and (max-width:400px){
+    .all{
+        display: block;
+        width: 100%;
+    }
+    body{
+        background-color: aqua;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:600px){
+    .all{
+        display: block;
+        width: 100%;
+
+    }
+    body{
+        background-color: brown;
+    }
+}
+@media screen and (min-width:601px) and (max-width:786px){
+    .all{
+        display: block;
+        width: 70%;
+    }
+    body{
+        background-color: green;
+    }
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: greenyellow;
+}
+
+a:visited{
+    color:chocolate;
+}
+
+.check:checked{
+     opacity: 0.6;
+}
+.text:focus{
+    outline:none
+}
+
+p::first-letter{
+    color: crimson;
+    font-size: 20px;
+}
+p::first-line{
+    color: blue;
+}
+p::selection{
+    background-color: yellow;
+    color: chartreuse;
+}
+p::after{
+    color: red;
+    content: " hiiiiiiiii";
+}
+p{
+    width: 70%;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+
+}
+p::before{
+    height: 5px;
+    width: 100%;
+    background-color: bisque;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: " ";
+}

@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="MyStyle.css">
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container-1">
+            <nav>
+                <ul>
+                    <li> <a href="Home.html">Personal Information</a></li>
+                    <li> <a href="ViewCourses.html">Courses Information</a></li>
+                    <li><a href="ViewExperience.html"> Experiences Information</a> </li>
+                    <li> <a class="active" href="AddCourse.html">Add Course</a></li>
+                    <li> <a href="AddExperience.html">Add Experience</a></li>
+                </ul>
+            </nav>
+            <div class="logo"><img src="Images/Azhar_WHITE_LOGO.png" alt="Azhar University"> </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <section id="Content-3">
+        <div class="container-2">
+            <div class="left-side">
+                <div>
+                    <form>
+                        <div>
+                            <label for="lab-1">Course Name:</label>
+                            <input type="text" id="lab-1" class="input-big">
+                        </div>
+                        <div>
+                            <label for="lab-2">Number of Hours:</label>
+                            <input type="number" id="lab-2" class="input-big">
+                        </div>
+                        <div>
+                            <label for="lab-3">Start Date:</label>
+                            <input type="date" id="lab-3" class="input-big">
+                        </div>
+                        <div>
+                            <label for="lab-4">End Date:</label>
+                            <input type="date" id="lab-4" class="input-big">
+                        </div>
+                        <div>
+                            <label for="lab-5">Institution:</label>
+                            <input type="text" id="lab-5" class="input-big">
+                        </div>
+                        <div>
+                            <label> Attachment:</label>
+                            <input checked="checked" type="radio" id="radio-1"> File<input type="radio" id="radio-2"> URL
+                        </div>
+                        <div>
+                            <label for="lab-7">URL:</label>
+                            <input type="url" id="lab-7" class="input-big">
+                        </div>
+                        <div>
+                            <label for="lab-8">File:</label>
+                            <input type="file" id="lab-8">
+                        </div>
+                        <div class="note">
+                            <div>
+                                <label for="lab-9">Notes:</label>
+                            </div>
+                            <div>
+                                <textarea id="lab-9" cols="25" rows="6"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="click"><button class="button-1">Save</button></div>
+                        <div class="click"><button class="button-2">Reset</button></div>
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="right-side">
+                <img src="Images/course.jpg" alt="personal img">
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

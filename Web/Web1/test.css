@@ -1,0 +1,135 @@
+*{
+    text-align:left;
+}
+
+a{
+    font-size: 50px;
+    text-decoration: none;
+    color: red;
+    cursor:not-allowed;
+    background-color: green;
+}
+.test20{
+width: 60%;
+background-color: brown;
+position: absolute;
+top:100 ;
+}
+.test30{
+    width: 60%;
+    background-color:darkmagenta;
+    }
+.container{
+    background-color: green;
+}
+.container div{
+    width: 25%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+ul{
+    margin-top: 100px;
+list-style-type:square;
+list-style-position: inside;
+list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMUAAAEACAMAAAA0tEJxAAAAeFBMVEX29vYAAAD39/f6+vrg4ODy8vKysrKmpqbv7+8ODg4bGxvc3NysrKyhoaHW1tbBwcF/f39NTU27u7uQkJA/Pz82NjZSUlJsbGyXl5fp6enLy8tHR0doaGjFxcUUFBQoKChbW1smJiZ3d3dfX1+IiIguLi6Li4seHh7Z7eCBAAAFGUlEQVR4nO3dfX/hTBTG8dkzErE0CEqColr3+3+HSz0lcyYhlZgT9/Xbv7bNh/k2Qh4Gil4hRar5QSEnKOR0Q0FyjEUjuanQQioeZr5iD6A46fs99/lREh+GkzfWPAUdBF/ryebjj4Q6m8n7YNlSOavErti7l7tv10NnbQYRWR1Whfb6247rIdtbR57mQzYU9LMiwk/Xgy1omhxWBxUpDj8J2n9dj7SwzizWtx5ROp66HubNti1drNDh0PUY72i81EUK3R27HuFdrRKdr9BhMxD7J93M2sgoKH53Pbq7G6e3jbSCAvkb9rV1TFaFbrseWalG2qbQiezXCVZfcwV5kl+xbW0DYgrddz2q0vnaVJDauh5U6d4DMhR6KeNIolTnlXFdFztzkY68zCF+quPu7VlB8cpcJOlKK2Qro0WZdaETvoR2ffbVSHvWh1RqXeivPKeciCumxw3jpCDiz1BNUAyPz1JnRcx3Zpug+A7TCp2wjbsRio/jXshZ0eevFk1QnF4xzgqfL9AIRe8lFG0onASFnKCQExRygkJOUMgJCjlBISco5ASFnKCQExRygkJOFSks01L5fVU3+bQeBYV9s4T/wRK20C8L61HoAVvmcsX5ck804bf0u6bmNDoooIACCiiggAIKKKCA4v+lUPIVfAr3nCnUpirFoh4FxaFZ1zQo6rKFflmL3XRFZw94TPHz1tdK5p3yu8eZHDFBISco5ASFnKCQExRygkJOUKRv5p6Pr3n0mmT+366iY71oNzJqe2yhN3OZcu2WuYzazh4M+TmQRz+YZma5+lyzooYzOVBAAQUUUEABBRRQQAFFaUUTjy9Gk3G2yZRfY12PH2rSrvlYj7yAxY/N+TLlYsfAFSsOVyfNK5SW+3qwPAPO5EgKCjlBISco5ASFnKCQExRyqkqR3TPP+Y4Pvvte0S56fbMf71qmIkZFR6yz+TDb/JMfsS6G1TTf1aR4ytmDS9OnKV50njkUUEABBRRQQAEFFFCIVvB3HdZ5fFHXuw79gdmMH+uN2EK/rK3Mm67ouNv8gaUaT5xUdw7k54uNT//yriSefknZpVX6B6lTBOn/ZZauTeE2KOQEhZygkBMUcoJCTlDICYr0zdy+9vb4hb26FeQF5ixOz3JXj83gDPKPs574aT/EvxyuXKmvvK1H8aoztKGAAgoooIACCiiggAKK5yvuOEoi8UdJFEZmS35XS7ZQubo1H7E+5xtV8k8f4EyOnKCQExRygkJOUMgJCjlBISco5ASFnKCQExRygkJOUMgJCjnZFL2MIuo0U+FnFMmmkYpOP62g1riRiu/wOPyTQq0bqThdyzoplP5qpGJ6vAx0USy5opKvyasyruhlFRT/Zy7RfWhKaR3FeY+Xi0Kxy8B/xcX+0Asvq7C+Yojv9IC6KmzPUtKbx2Qo9ivD9aBK93a+UH1VkLdwPaqSXd+WfVXsn2wbtmX4lzkDKYXSM9fjKtXgOk0hraC4SRv4PLVvkVYobdknlNp3mJqDklHsN42N69HdWSdKT6TJKkgnj05vek4fGYShOKyNyj4Jo8ZWUXYCkqnYbxvyN/FhqLODZgql45HrUd5o0NJKFa+Lw8bR37oeaEHvkeWbvblizwh6Q9eDzWn+Flvm5NkUB4fnfwrcH5n2Auu8Qtsj6uRo+dP56sP1wE91VvNFr+vlzI20r4uf35DWXtj322/ua/eiMCiY35mvOEuEVPQG1xuKpgSFnKCQ08somp+if3Nb9g9xynncAAAAAElFTkSuQmCC");
+<!--list-style: decimal inside;-->
+list-style: url("images/1.gif") outside;
+}
+ul li{
+    background-color: aqua;
+}
+.div3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    overflow: auto;
+}
+.div1{
+    display: none; 
+    /*visibility: hidden;*/
+}
+.test5{ /*block items*/
+    margin: right 5px;
+    font-size: 50px;
+    background-color: blueviolet;
+   
+    border: 5px red dashed;
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    display: block;
+    margin: 200px;
+}
+
+.test6{/*inline items*/
+    /*margin & padding  for inline just to left & right */
+    font-size: 50px;
+    background-color: blueviolet;
+    border: 5px red dashed;
+    width: 200px;
+    height: 100px;
+    padding: 0px 20px;
+    display: inline-block;
+    margin: right 5px;
+}
+a:hover{
+   color: blueviolet; 
+   font-size: 70px;
+}
+.y{
+    height: 200px;
+    width: 200px;
+    border: 5px blue solid;
+    background-color: burlywood;
+    background-image: url("images/1.gif");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-position: left  top;
+    background-position: 10px 10px ;
+}
+
+.testP{
+    color: red;
+    font-size: 50px;
+}
+#testP{
+    color: rgb(245, 2, 204);
+    font-size: 40px;
+}
+
+
+
+/* calling the item by attrebutes*/
+input[type="text"]{
+    background-color: yellow;
+}
+input[value="email"]{
+    background-color: blueviolet;
+}
+input[type="submit"]{
+    background-color: greenyellow;
+}
+
+.x{
+    background-color: orangered;
+    margin: 10;
+    padding: 20;
+    width: 100px;
+    height: 100px;
+    /*border-width:10px ;
+    border-color: green;
+    border-style: dashed;*/
+    border: 5px blue solid;
+}
+p{
+    color:green;
+    font-size: 40px;
+    font-family:Cursive;
+    line-height: 100px;
+    letter-spacing: 20px;
+    font-weight:900;
+    direction: rtl;
+}

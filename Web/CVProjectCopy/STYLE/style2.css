@@ -1,0 +1,66 @@
+
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #444;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+form{
+    width:420px;
+    margin: 40px auto auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+}
+form div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+form div label{
+    /*color: #131212;*/
+}
+form .submit-field{
+    justify-content: flex-end;
+}
+input[type=text], input[type=email], input[type=number]{
+    display: block;
+    width: 55%;
+    font-size: 16px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form input[type=submit], input[type=reset]{
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+form input[type=submit]:hover, input[type=reset]:hover{
+    background-color: #23527c;
+}
+form span{
+    color: #ce7777;
+    /*font-style: italic;*/
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -4px;
+    text-shadow: #311b1b 0 2px 8px;
+}

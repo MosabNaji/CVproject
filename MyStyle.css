@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    color: white;
+}
+/*Start Personal information*/
+.container-1{
+    width: 100%;
+    padding:8px 0px 8px 30px;
+}
+header{
+    background-color: #00BAFF;
+}
+header .container-1{
+    display: flex;
+    justify-content: space-between;   
+}
+ul li{
+    font-family: Comic Sans Ms;
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+ul li a{
+    text-decoration:none;
+    color: black;
+}
+ul li a:hover{
+    color: white;
+}
+div.logo img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 10px;
+
+}
+.container-2{ 
+    padding-top: 30px;
+    width: 90%;
+    margin: auto;
+    
+}
+#Content-1 .left-side{
+    width: 50%;
+    
+}
+#Content-1 .right-side{
+    padding: 20px 0px 0px 100px;
+    width: 50%;
+}
+#Content-1 .container-2{
+    display: flex;
+}
+#Content-1 .container-2 .left-side .left-sup{
+    width: 30%;
+}
+#Content-1 .container-2 .left-side{
+    display: flex;
+}
+#Content-1 .container-2 .left-side p{
+    padding: 20px 0px;
+}
+#Content-1 .container-2 .right-side img{
+width:380px;
+height:380px;
+}
+.container-2 .big-big{
+    font-family: unispace;
+    font-size: 38px;
+}
+/*End Personal information*/
+
+/* Start Courses Information */
+.table-1 .container-2{
+    font-size: 52px;
+    font-family: unispace;
+    font-size: 33px;
+}
+table thead{
+
+    height: 80px; 
+    background-color: #606060;
+    
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+table tbody tr{
+    height:80px;
+}
+th ,td ,tr{
+    border: 1px solid black;
+}
+thead:first-child .th:first-child{
+    border-top-left-radius:20px ;
+}
+thead:first-child .th:last-child{
+    border-top-right-radius:20px ;
+}
+tr:last-child td:first-child{
+    border-bottom-left-radius:20px ;
+}
+tr:last-child td:last-child{
+    border-bottom-right-radius:20px ;
+}
+/* End Courses Information */
+
+/* Start Experianses information*/
+.container-2 .big{
+   
+    font-size: 50px;
+}
+#Content-2 .container-3 .big-1{
+font-size: 30px;
+}
+div.container-3{
+   padding: 5px 0px;
+   width: 90%;
+   margin: auto;
+}
+#Content-2 .container-3 .two{
+    padding: 20px 0px;
+}
+#Content-2 .container-3{
+    padding: 30px 0px;
+}
+/* End Experianses information*/
+
+/*Start Add course*/
+#Content-3 .left-side{
+    padding-left:100px;
+}
+#Content-3 .right-side{
+    width: 35%;
+    padding-left: 80px;
+}
+#Content-3 .container-2{
+    display: flex;
+}
+
+#Content-3 .container-2 .left-side form div{
+    padding:10px 0px;
+}
+#Content-3 .left-side .click{
+    display: inline-block;
+    margin-left: 80px;
+    }
+#Content-3 .right-side img{
+    padding: 10px ;
+    width:460px;
+    height:510px;
+}
+#Content-3 .container-2 .left-side .input-big{
+    width: 200px;
+    height: 23px;
+    border-radius: 7px;
+}
+#lab-1{
+    margin-left: 66px;
+ }
+ #lab-2{
+     margin-left: 40px;
+ }
+ #lab-3{
+     margin-left: 89px;
+ }
+ #lab-4{
+     margin-left: 93px;
+ }
+ #lab-5{
+     margin-left: 88px;
+ }
+#radio-2{
+    margin-left:70px;
+}
+#radio-1{
+    margin-left: 80px;
+}
+#lab-7{
+    margin-left: 122px;
+}
+#lab-8{
+    margin-left: 130px;
+}
+#Content-3 .container-2 .left-side .note{
+    display: flex;
+
+}
+#lab-9{
+    border-radius: 7px;
+}
+#Content-3 .container-2 .left-side .button-1{
+    width: 165px;
+    color: white;
+    background-color: #198754;
+    border-radius: 7px;
+}
+#Content-3 .container-2 .left-side .button-2{
+    width: 165px;
+   margin-left: 20px;
+   color: white;
+   background-color: #dc3545;
+   border-radius: 7px;
+}
+/* End Add Course*/
+
+/*Start Add experiance*/
+#Content-4 .left-side{
+    padding-left:70px;
+    width: 65%;
+}
+#Content-4 .right-side{
+    width: 35%;
+   padding-left: 30px;
+}
+#Content-4 .container-2{
+    display: flex;
+}
+
+#Content-4 .container-2 .left-side form div{
+    padding:15px 0px;
+}
+#Content-4 .left-side .click{
+    display: inline-block;
+    }
+#Content-4 .right-side img{
+    padding: 10px 0px 0px 0px;
+    width:350px;
+    height:455px;
+}
+#Content-4 .container-2 .left-side .input-big{
+    width: 200px;
+    height: 23px;
+    border-radius: 7px;
+}
+
+#Content-4 .container-2 .left-side .note{
+    display: flex;
+
+}
+#lab-9{
+    margin-left: 122px;
+    border-radius: 7px;
+}
+#Content-4 .container-2 .left-side .button-1{
+    width: 200px;
+    color: white;
+    background-color: #198754;
+    border-radius: 7px;
+}
+#Content-4 .container-2 .left-side .button-2{
+   width: 200px;
+   color: white;
+   background-color: #dc3545;
+   border-radius: 7px;
+   margin-left: 100px;
+   
+}
+#labal-1{
+    margin-left: 20px;
+ }
+ #labal-2{
+     margin-left: 50px;
+ }
+ #labal-3{
+     margin-left:86px;
+ }
+ #labal-4{
+     margin-left: 91px;
+ }
+ #labal-5{
+     margin-left: 95px;
+ }
+#labal-9{
+    margin-left: 92px;
+    border-radius: 7px;
+}
+/*End Add experiance*/
+
+/* Start Attachement*/
+.container-2 .big-0{
+    font-size: 40px;
+}
+.picture img{
+    width:100%;
+    padding:40px 100px;  
+}
+.picture img{
+    width:100%;
+    padding:40px 100px;  
+}
+/* End Attachement*/
